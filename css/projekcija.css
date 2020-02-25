@@ -1,0 +1,209 @@
+*{
+	box-sizing:border-box;
+}
+body{
+	margin:20px;
+	padding:15px;
+	background-image:url(../img/pozadina.jpg);
+	font-family:Tahoma, sans-serif;
+}
+h1{
+	color:white;
+}
+nav ul li a{
+	color:orange;
+	font-family:Impact;
+}
+nav ul li a:hover{
+	text-decoration:none;
+	color:red;
+}
+nav ul li{
+	_outline:1px dotted black;
+	float:left;
+	padding:10px;
+}
+nav ul{
+	list-style:none;
+}
+
+.header{
+	background-image:url(../img/boja.jpg);
+	border:1px solid black;
+	_position:fixed;
+	width:100%;
+	height:120px;
+	padding:5px;
+}
+.header img{
+	max-width:180%;
+	max-height:80%;
+	border:1px solid black;
+	border-radius:50%;
+	float:right;
+	background-image: url(../img/boja.jpg);
+}
+.sisa{
+	background-image: url(../img/boja.jpg);
+	text-align:center;
+	margin-top:10px;
+	border:1px solid black;
+	height:150px;
+	padding:0;
+}
+.sisa h2 a{
+	font-size:20px;
+	border:2px ridge green;
+	border-radius:25px;
+	padding:12px;
+	width:50px;
+	height:50px;
+	font-family:Cursive;
+	color:green;
+}
+.sisa h2 a:hover{
+	text-decoration:none;
+	color:orange;
+}
+.sisa h1{
+	color:Green;
+	font-family:Cursive, sans-serif;
+	font-size:35px;
+	text-align:center;
+	color:orange;	
+}
+.divcina{
+	margin:0 auto;
+	border:1px solid black;
+	background-image:url(../img/boja.jpg);
+	padding:10px;
+}
+
+.prvi{
+	float:left;
+	border:1px solid black;
+	width:500px;
+	height:500px;
+	padding:5px;
+	margin:auto;
+	background-image:url(../img/plava.jpg);
+	text-align:center;
+	
+}
+.prvi h3{
+	color:Orange;
+	font-family:Cursive, sans-serif;
+	font-size:25px;
+}
+.drugi{
+	float:right;
+	border:1px solid black;
+	width:500px;
+	height:500px;
+	padding:5px;
+	margin:auto;
+	background-image:url(../img/plava.jpg);
+	text-align:center;
+}
+.drugi h3{
+	color:Orange;
+	font-family:Cursive, sans-serif;
+	font-size:25px;
+}
+.krug{
+ text-align:center;
+ padding:20px;
+ background-image:url(../img/plava.jpg);
+ font-family:Arial, sans-serif;
+ color:lightgreen;
+ }
+.krug img{
+	border-radius:50%;
+	border:2px double green;
+}
+.krug a{
+	font-size:20px;
+	border:2px ridge green;
+	border-radius:25px;
+	padding:12px;
+	width:50px;
+	height:50px;
+	font-family:Cursive;
+	color:orange;
+}
+.krug a:hover{
+	text-decoration:none;
+	color:red;
+}
+.kruzic{
+	background-image:url(../img/plava.jpg);
+	text-align:center;
+	padding:20px;
+	font-family:Arial, sans-serif;
+	color:lightgreen;
+}
+.kruzic img{
+	border-radius:50%;
+	border:2px double green;
+}
+.kruzic a{
+	font-size:20px;
+	border:2px ridge green;
+	border-radius:25px;
+	padding:12px;
+	width:50px;
+	height:50px;
+	font-family:Cursive;
+	color:Orange;
+}
+.kruzic a:hover{
+	text-decoration:none;
+	color:red;
+}
+
+.header:before,
+.header:after {
+   content: " ";
+   display: table;
+}
+.header:after {
+   clear: both;
+}
+.divcina:before,
+.divcina:after {
+   content: " ";
+   display: table;
+}
+.divcina:after {
+   clear: both;
+}
+
+/******************
+	REGISTRACIJA
+******************/
+.borba{
+	background-image:url(../img/boja.jpg);
+	border:1px solid black;
+	height:500px;
+	margin-top:10px;
+}
+.borba img{
+	max-width:75%;
+	max-height:75%;
+	display:block;
+	margin:0 auto 0 auto;
+	border:1px solid black;
+}
+.borba h3{
+	color:Orange;
+	font-family:Cursive, sans-serif;
+	font-size:25px;
+	text-align:center;
+}
+.footer{
+	background-image:url(../img/boja.jpg);
+	border:1px solid black;
+	text-align:center;
+	color:blue;
+	_font-family:Impact;
+}
